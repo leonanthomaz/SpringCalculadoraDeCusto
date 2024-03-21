@@ -1,2 +1,2 @@
 # SpringCalculadoraDeCusto
-Programa para cálculo de custo de produtos para comércio.
+Cálculo de custos para comécio.
