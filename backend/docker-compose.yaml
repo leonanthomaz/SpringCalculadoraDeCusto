@@ -8,6 +8,6 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - C:\\dev\\docker\\java\\chickenhouse:/var/lib/mysql
+      - C:\\dev\\docker\\java\\chickenhouse:/var/lib/mysqll
 volumes:
   chickenhouse:
