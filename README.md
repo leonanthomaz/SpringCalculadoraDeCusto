@@ -15,6 +15,7 @@ Bem-vindo ao projeto Spring Calculadora Custos Produto! Este é um projeto para 
 - Spring Boot
 - Spring Data JPA
 - Hibernate
+- MySQL (para ambiente de produção)
 - H2 Database (para ambiente de desenvolvimento)
 - Docker (para empacotamento e implantação)
 - React
