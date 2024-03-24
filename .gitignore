@@ -1,10 +1,17 @@
-# Arquivos e diretórios a serem excluídos do controle de versão
+# Arquivos sensíveis a serem ignorados
+backend/src/main/resources/application.yaml
+backend/docker-compose.yaml
+frontend/.env
 
-target/
+# Diretórios e arquivos que não devem ser ignorados
+HELP.md
+
+# Diretórios e arquivos que devem ser rastreados, mesmo que estejam dentro de "target"
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Exclusões específicas para IDEs
 ### STS ###
 .apt_generated
 .classpath
@@ -32,7 +39,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-# Excluir arquivos específicos
-backend/src/main/resources/application.yaml
-backend/docker-compose.yaml
