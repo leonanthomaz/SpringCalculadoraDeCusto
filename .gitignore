@@ -1,4 +1,5 @@
-HELP.md
+# Arquivos e diretórios a serem excluídos do controle de versão
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -31,3 +32,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Excluir arquivos específicos
+backend/src/main/resources/application.yaml
+backend/docker-compose.yaml
